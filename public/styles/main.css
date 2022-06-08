@@ -1,6 +1,7 @@
 /* Custom variables */
 :root{ 
-    --color-text-main: blue;
+    --clr-bkg-main: black;
+    --clr-txt-main: white;
 }
 
 /* Reset */
@@ -8,4 +9,5 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
