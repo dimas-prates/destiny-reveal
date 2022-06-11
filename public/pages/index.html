@@ -9,18 +9,23 @@
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/index.css">
     <title>Destiny reveal</title>
+    <script type="module" defer src="../scripts/main.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <img src="../images/cristal-ball.svg"
-            alt="crystal globe image">
-        <h1>I will reveal your destiny!</h1>
-        <p>If you want your destiny to be revealed, you must press the button below, with a written question to view.
+    <main class="container">
+        <img class="container__img" src="../images/cristal-ball.svg" alt="crystal globe image">
+        <h1 class="container__title">I will reveal your destiny!</h1>
+        <p class="container__text">If you want your destiny to be revealed, you must press the button below, with a
+            written question to
+            view.
         </p>
-        <input type="text" placeholder="Type your question here" autofocus>
-        <button>Send question</button>
-    </div>
+        <input class="container__input" data-inpQuestion type="text" placeholder="Type your question here" autofocus
+            required>
+        <button class="container__button" data-btnQuestion>Send question</button>
+
+        <h3 class="container__response" data-titleResponse></h3>
+    </main>
 </body>
 
 </html>
