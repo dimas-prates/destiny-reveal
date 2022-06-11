@@ -1,3 +1,5 @@
+/* Imported main configuration */
+@import url(./main.css);
 body {
     background-color: var(--clr-bkg-main);
     color: var(--clr-txt-main);
@@ -51,12 +53,12 @@ body {
     cursor: pointer;
 }
 
-.response {
+.container__response {
     margin-top: 10px;
     transition: opacity 1s;
 }
 
-.response span {
+.container__response span {
     display: block;
     font-size: 16px;
     font-weight: normal;
