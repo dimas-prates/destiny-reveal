@@ -1,5 +1,6 @@
 /* Imported main configuration */
 @import url(./main.css);
+
 body {
     background-color: var(--clr-bkg-main);
     color: var(--clr-txt-main);
